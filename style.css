@@ -1,0 +1,67 @@
+h1{
+    color: #B22222;
+    background-color: rgb(33, 7, 95);
+    border: 6px solid #000000;
+}
+body{
+    background-color: #FF00FF;
+    margin: 3px;
+}
+.grid img{
+    border: 5px solid#000000;
+    border-radius: 40px;
+}
+.grid{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+.Origami{
+        border-radius: 20px;
+    background-color:#FFFFFF;
+    width: 310px;
+    padding: 30px;
+    margin: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    padding: 16px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.instructions{
+    position: relative;
+}
+.instructions p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 30px;
+
+}
+.instructions h2{
+    width : 1600px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-40%,-40%);
+    color: white;
+    font-size: 20px;
+    padding-top:20px ;
+}
+.Origami:hover{
+    transform: scale(1.2);
+}
